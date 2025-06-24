@@ -16,7 +16,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
     cors: {
-        origin: 'http://localhost:3000',
+        origin: 'dineasynew5.vercel.app',
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         credentials: true
     }
